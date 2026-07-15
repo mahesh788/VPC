@@ -71,6 +71,7 @@ Created an HTTP Listener on Port 80.
 Created a Target Group.
 Registered both EC2 instances.
 Configured Health Checks on Port 8000.
+png
 ### Step 6: Verified the Deployment
 Confirmed both EC2 instances became **Healthy** in the Target Group.
 Accessed the application using the Application Load Balancer DNS.
