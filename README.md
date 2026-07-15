@@ -41,3 +41,16 @@ Load Balancing
 High Availability
 Cloud Infrastructure
 
+## Practical Implementation
+
+### Step 1: Created AWS Networking
+- Created a custom VPC.
+- Created 2 Public Subnets.
+- Created 2 Private Subnets.
+- Attached an Internet Gateway.
+- Created a NAT Gateway.
+- Configured Route Tables and associated them with the appropriate subnets.
+
+
+
+
