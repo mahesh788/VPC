@@ -21,15 +21,15 @@ Successfully routed application traffic through the Load Balancer.
 Verified high availability by ensuring both EC2 instances remained healthy.
 
 ## Components Used
-Amazon VPC
-EC2
-Bastion Host
-Internet Gateway
-NAT Gateway
-Route Tables
-Security Groups
-Application Load Balancer
-Target Group
+-Amazon VPC
+-EC2
+-Bastion Host
+-Internet Gateway
+-NAT Gateway
+-Route Tables
+-Security Groups
+-Application Load Balancer
+-Target Group
 
 ## Outcome
 Successfully deployed a Python web application in private EC2 instances and accessed it securely through an Application Load Balancer.
