@@ -77,6 +77,8 @@ Cloud Infrastructure
 - Confirmed both EC2 instances became **Healthy** in the Target Group.
 - Accessed the application using the Application Load Balancer DNS.
 - Verified that the application was successfully served through the Load Balancer.
+  <img width="1500" height="720" alt="image" src="https://github.com/user-attachments/assets/1e10912a-3246-4328-957e-6d7df088955c" />
+
 
 
 
