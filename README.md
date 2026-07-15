@@ -52,30 +52,31 @@ Cloud Infrastructure
 - Configured Route Tables and associated them with the appropriate subnets.
 <img width="1445" height="747" alt="image" src="https://github.com/user-attachments/assets/de8e635b-90f0-4d5b-b04c-e6287beed141" />
 ### Step 2: Launched EC2 Instances
-Launched one Bastion Host in the Public Subnet.
-Launched two EC2 instances in Private Subnets.
-Configured Security Groups for secure communication.
+- Launched one Bastion Host in the Public Subnet.
+- Launched two EC2 instances in Private Subnets.
+- Configured Security Groups for secure communication.
 <img width="1650" height="797" alt="image" src="https://github.com/user-attachments/assets/b21d31df-5944-477a-a926-9dcb7aa40e07" />
 ### Step 3: Connected to Private Instances
-Connected to the Bastion Host using SSH.
-Connected to private EC2 instances from the Bastion Host using a PEM key.
-ssh -i project.pem ubuntu@<Private-EC2-IP>
+- Connected to the Bastion Host using SSH.
+- Connected to private EC2 instances from the Bastion Host using a PEM key.
+- ssh -i project.pem ubuntu@<Private-EC2-IP>
 ### Step 4: Deployed Python Application
-Created an index.html file and hosted it using Python.
-bash
-python3 -m http.server 8000
-Verified that the application was accessible locally.
+- Created an index.html file and hosted it using Python.
+  **bash**
+- python3 -m http.server 8000
+- Verified that the application was accessible locally.
 ### Step 5: Configured Application Load Balancer
-Created an Internet-facing Application Load Balancer.
-Created an HTTP Listener on Port 80.
-Created a Target Group.
-Registered both EC2 instances.
-Configured Health Checks on Port 8000.
-png
+- Created an Internet-facing Application Load Balancer.
+- Created an HTTP Listener on Port 80.
+- Created a Target Group.
+- Registered both EC2 instances.
+- Configured Health Checks on Port 8000.
+<img width="1472" height="602" alt="image" src="https://github.com/user-attachments/assets/f0363afb-c7cc-481e-a299-ae0cdfb3dc2b" />
+
 ### Step 6: Verified the Deployment
-Confirmed both EC2 instances became **Healthy** in the Target Group.
-Accessed the application using the Application Load Balancer DNS.
-Verified that the application was successfully served through the Load Balancer.
+- Confirmed both EC2 instances became **Healthy** in the Target Group.
+- Accessed the application using the Application Load Balancer DNS.
+- Verified that the application was successfully served through the Load Balancer.
 
 
 
