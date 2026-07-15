@@ -55,6 +55,7 @@ Cloud Infrastructure
 Launched one Bastion Host in the Public Subnet.
 Launched two EC2 instances in Private Subnets.
 Configured Security Groups for secure communication.
+<img width="1650" height="797" alt="image" src="https://github.com/user-attachments/assets/b21d31df-5944-477a-a926-9dcb7aa40e07" />
 ### Step 3: Connected to Private Instances
 Connected to the Bastion Host using SSH.
 Connected to private EC2 instances from the Bastion Host using a PEM key.
