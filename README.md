@@ -78,6 +78,8 @@ Cloud Infrastructure
 - Accessed the application using the Application Load Balancer DNS.
 - Verified that the application was successfully served through the Load Balancer.
   <img width="1500" height="720" alt="image" src="https://github.com/user-attachments/assets/1e10912a-3246-4328-957e-6d7df088955c" />
+  <img width="1596" height="237" alt="image" src="https://github.com/user-attachments/assets/23b71b69-88ae-408b-8e94-d889472d9e8a" />
+
 
 
 
