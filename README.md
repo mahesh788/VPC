@@ -3,6 +3,7 @@ AWS Two-Tier Web Application with Application Load Balancer
 **Project Overview**
 This project demonstrates the deployment of a highly available two-tier web application on AWS using a custom Virtual Private Cloud (VPC). The infrastructure includes public and private subnets across two Availability Zones, a Bastion Host for secure administration, and an Application Load Balancer to distribute traffic between EC2 instances hosting a Python web application.
 ## Architecture
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/b1763d28-5e4e-4c9b-8d72-5861fc10e6e5" />
 
 ## What I Learned & Implemented
 Created a custom Amazon VPC.
